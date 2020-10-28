@@ -6,8 +6,12 @@ Requirements
 
 -->Implement three different media queries for the entire site: one for mobile, one for a tablet, and one for a computer.
 
->Implement a responsive navigation bar.
->Add styling to the navigation bar, so it looks like a navigation bar.
+-->Implement a responsive navigation bar.
+
+-->Add styling to the navigation bar, so it looks like a navigation bar.
+
 >Add em font sizes to the text throughout the site.
+
 >Add font styling.
+
 >Add any other styling to this site to make it look unique to your style.

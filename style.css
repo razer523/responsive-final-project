@@ -18,6 +18,21 @@
         float: left;
         padding: 15px;
         background-color: lightblue;
+        max-width: 350px;
+    }
+
+    .aboutMe{
+        width: 100%;
+        font-size: 1.25em;
+    }
+    
+    .skills {
+        width: 100%;
+        font-size: 1.25em;
+    }
+
+    .portHeader{        
+        font-size: 1.5em;
     }
 }
 
@@ -28,6 +43,20 @@
         padding: 15px;
         background-color: lightgreen;
     }
+
+    .aboutMe{
+        width: 60%;
+        font-size: 1.25em;
+    }
+    
+    .skills {
+        width: 40%;
+        font-size: 1.25em;
+    }
+
+    .portHeader{        
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (min-width: 1024px)  {
@@ -35,16 +64,36 @@
         width: 20%;
         float: left;
         padding: 15px;
-        background-color: yellow;
+        background-color: rgb(255, 255, 134);
     }
+
+    .aboutMe{
+        width: 70%;
+        font-size: 1em;
+    }
+    
+    .skills {
+        width: 30%;
+        font-size: 1em;
+    }
+
+    .portHeader {        
+        font-size: 1.25em;
+    }
+
 }
 
 .homeImage {
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.homeIntro {
-    width:100%;
+h3, h1 {
+    text-align: center;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
 }
 
 nav{
@@ -71,3 +120,64 @@ a:hover {
     background-color: #ddd;
     color: black;
 }
+
+footer{
+margin-top: 50px;
+}
+
+html, body {
+  background: #f1f1f1;
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
+}
+
+.h1 {
+   text-align: center;
+   color: #524747;
+   text-shadow:1px 1px 0 rgba(white, 1);
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+  
+input {
+     border:0; outline:0;
+     padding: 1em;
+     border-radius: 8px;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     box-shadow: 0 1px 1px rgba(black, 0.1);
+     resize: none;
+}
+  
+.submit{
+    background-color: rgb(219, 84, 84);
+    display: block;
+    margin-top: 1em;
+    justify-self: center;
+    color: white; 
+    cursor: pointer;
+    width: 50%;
+}
+  
+  textarea {
+      height: 126px;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+#box{
+    display: flex;
+    width: auto;
+    height: auto;
+    background: linear-gradient(73deg, rgba(224, 131, 131, 0.479),  rgba(172, 226, 72, 0.479), rgba(93, 117, 223, 0.479));
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #a8a8a8;
+  }
